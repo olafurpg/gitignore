@@ -4,6 +4,9 @@
 !app/cache/.gitkeep
 !app/logs/.gitkeep
 
+# Email spool folder
+/app/spool/*
+
 # Cache and logs (Symfony3)
 /var/cache/*
 /var/logs/*
@@ -25,6 +28,9 @@
 # Assets and user uploads
 /web/bundles/
 /web/uploads/
+
+# Assets managed by Bower
+/web/assets/vendor/
 
 # PHPUnit
 /app/phpunit.xml
